@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E3D028"
+    tools:context=".Add">
+
+    <EditText
+        android:id="@+id/txtDueBy"
+        android:layout_width="321dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="275dp"
+        android:ems="10"
+        android:hint="Time Due By"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnAddTo"
+        android:layout_width="316dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="473dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="210dp"
+        android:background="#2196F3"
+        android:text="ADD"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnViews"
+        android:layout_width="157dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="543dp"
+        android:layout_marginEnd="209dp"
+        android:layout_marginBottom="140dp"
+        android:background="#2196F3"
+        android:text="Back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnMainMenu"
+        android:layout_width="140dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="226dp"
+        android:layout_marginTop="543dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="143dp"
+        android:background="#2196F3"
+        android:text="MAIN MENU"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtDateToAddTo"
+        android:layout_width="253dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="198dp"
+        android:layout_marginEnd="116dp"
+        android:layout_marginBottom="487dp"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txtAssign"
+        android:layout_width="321dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="330dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="345dp"
+        android:ems="10"
+        android:hint="Assignment Name"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnAddDate"
+        android:layout_width="86dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="295dp"
+        android:layout_marginTop="190dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="487dp"
+        android:background="#2196F3"
+        android:text="Select A Date"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txtCourse"
+        android:layout_width="321dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="257dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="418dp"
+        android:ems="10"
+        android:hint="Course Number/Name"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="325dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="135dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginBottom="553dp"
+        android:text="Add An Assignment"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textBlank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="167dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="185dp"
+        android:layout_marginBottom="685dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
